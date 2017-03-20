@@ -52,3 +52,30 @@
 # Expresiones regulares
 - Resumen de como expresar lenguajes regulares (notacion), es decir, sin llaves de conjunto, sea fi (vacio) epsilon(epsilon)
 
+# LUNES 20/3
+
+# Automata finito deterministico (AFD)
+- Maquina Reconocedora de palabras sobre un alfabeto (sigma)
+
+- *Caja negra, Cosa que no me interesa que haya adentro (entrada salida, tipo control remoto)*
+
+- Note que AFD sobre Sigma define un lenguaje sobre Sigma* formado por las palabras que el automata reconoce
+
+- Automata define un lenguaje, definido por las palabras que reconoce el automata
+
+- solo una entrada implica estado inicial, dos circulos, estados finales.
+- Aristas implica Transicion entre estado
+
+- SOLO ACEPTADAS SI TERMINAN EN ESTADOS FINALES!
+- Lrara implica operador 
+- Ej: Lrara(A)={xE{a,b}*| x comienza con cantidad par de b's*}
+# Definicion formal de AFD 
+- AFD ES UNA QUNTUPLA (5 elementos), SIgma S, S0 delta F
+- S es conjunto de estados
+- S0 estado inicial
+- Delta  es funcion de transicion (toma un simbolo de alfabeto cruz estado y va a estado)
+  F es estados finales
+- Sigma alfabeto
+
+
+ 
