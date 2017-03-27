@@ -77,5 +77,10 @@
   F es estados finales
 - Sigma alfabeto
 
+# 27 MARZO, JERARQUIAs DE LENGUAJES Y AUTOMATAS
+- Chomsky el autor -> Crrespondencia entre lenguajes, sus reconocedores (automatax) y sus gramaticas (Sistemas productivos de expresiones)
+
+# MIRAR PPT! TIPOS DE LENGUAJES; GRAMATICA Y AUTOMATA
+- Cada tipo subconjunto de otro, siendo el mejor tio turingo
 
  
