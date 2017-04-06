@@ -84,3 +84,27 @@
 - Cada tipo subconjunto de otro, siendo el mejor tio turingo
 
  
+# # # # ### # # # # # # # # # # # # # # # # # # # # #
+
+# Gramaticas y Gramaticas Regulares
+
+ - Gramatica
+   - Sistema para produccion de expresiones bien formadas de un lenguaje.
+   - Cuadrupla :Sigma,V,s,R
+     - Sigma, alfabeto de simbolos llamados terminales
+     - V, alfabetos de simbolos variables
+     - Sigma y V no elementos en comun!
+     - s, simbolo inicial, perteneciente a Variables
+     - R, reglas para producion para produccion de la forma a->b donde a es una palaabra construida por simbolos de los primeros 2 alfabetos, pero debe tener a lo menos un elemento del segundo alfabeto.
+   - Ej: A=({a,b},{A,B},A,{A->Bb,B->aB,B->e})
+   
+   - TIpos de gramatica
+     - Libre a contexto, izquierda solo 1 simbolo
+     - Regular, derecha formas aB, b o epsilon
+  
+ - Formato de Oracion
+   - Dado G =(Sigma,V,s,R), una gramatica, se dice que el formato de oracion gamm
+   
+   - Derivacion Directa
+     - Con G, se dice que gamma 2 deriva de gamma 1, lo que se escribe gamma1 implica gamma2
+     - mirar ppt
