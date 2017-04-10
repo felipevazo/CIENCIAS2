@@ -108,3 +108,35 @@
    - Derivacion Directa
      - Con G, se dice que gamma 2 deriva de gamma 1, lo que se escribe gamma1 implica gamma2
      - mirar ppt
+     
+     
+# ------------------------------------------------------------------------------------------------
+
+
+
+# Automata Finito No Deterministico
+
+# Concepto:
+ # Admite:
+  - No deterministico -> puedo estar en n estados a la vez
+  - Transiciones con palabra vacia
+  - Más de una transicion para la misma letra
+  - que no existan transiciones para letras del alfabeto
+# Formalizacion
+  - QUINTUPLA
+  - Alfabeto,Estados,EstadoInicial, Delta', estadoFinal
+  - Delta':(Sigma U epsilaund)xS -> S elevado P -> conjunto potencia
+# ------------------------------------------
+
+# Automata Con Pila
+
+- SEPTUPLA ( Q,Sigma, Gamma ,delta, q0,Z0, F)
+- Q: COnjunto estados
+- Sigma: Alfabeto (letras a procesar)
+- Gamma: Alfabeto: simbolos de pila
+- delta Transicion de estados y cambio de pila (Estadox(Letra O Vacio)x EncimadePila) ->(EstadoXGammaEstrella) es decir se puede ALTERAR EL TOPE DE LA PILA
+- q0 EstadoInicial
+- Z0 SimboloInicial en la pila
+- F, estados finales
+- 2 lenguajes -> palabras que terminan en estado final
+-             -> palabras que terminan en pila vacía
