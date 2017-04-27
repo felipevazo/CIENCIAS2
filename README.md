@@ -140,3 +140,28 @@
 - F, estados finales
 - 2 lenguajes -> palabras que terminan en estado final
 -             -> palabras que terminan en pila vacía
+
+
+# ----------------------------
+# Maquinas de Turing y automatas linealmente acotados
+
+# Maquina Turing
+ -Cabezal, Cinta infinita, conjunto de estados
+ - Septupla
+ - <Q,Sigma,Gamma,Delta,q0,B,F>
+ -Q Conjunto finito de estados
+ -Sigma Alfabeto de simbolos de entrada
+ -Gamma Alfabeto completo de la cinta
+ -Delta Funcion de transicion de estados y escritura
+ -q0 estado Inicial
+ -B Simbolo del blanco, es decir simbolo que usa toda la cinta excepto el ocupado por la palabra a procesar
+ -F Conjunto de estados finales/aceptacion
+ 
+# Notacion de una instantanea de Turing
+ - Estado actual, tanto cinta, cabezal y estado
+ - Ej: 0^n1^(n+2)(0,1)*
+ 
+ 
+# ALA
+ - Cinta acotada por simbolos f initos
+ - # Marca fin
