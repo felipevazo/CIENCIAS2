@@ -165,3 +165,12 @@
 # ALA
  - Cinta acotada por simbolos f initos
  - # Marca fin
+
+
+# Lenguajes enumerables y recursivos enumerables
+ - si es computable
+ - Heuristica =! algoritmo
+ 
+# halting problem (problema del castor laborioso)
+ - Determinar si el algoritmo se detiene(work) o entra en bucle(loop)
+ - Imposible de realizar
